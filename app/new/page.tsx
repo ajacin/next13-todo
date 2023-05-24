@@ -1,4 +1,4 @@
-import { prisma } from "@/src/db";
+import { prisma } from "@/db";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 async function createTodo(data: FormData) {
